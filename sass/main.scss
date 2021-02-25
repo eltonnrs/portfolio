@@ -300,14 +300,14 @@ body {
 .section-home {
     display: flex;
     align-items: center;
-    background: linear-gradient(90deg, rgba($color-primary, .8) 0%,
+    background-image: linear-gradient(90deg, rgba($color-primary, .8) 0%,
         rgba($color-quarternary, .8) 100%), url(../img/bg.jpg);
 
     .section-content {}
 }
 
 .section-skills {
-    background: linear-gradient(90deg, rgba($color-primary, .8) 0%,
+    background-image: linear-gradient(90deg, rgba($color-primary, .8) 0%,
         rgba($color-quarternary, .8) 100%), url(../img/bg-2.jpg);
 
     .section-content {
@@ -380,7 +380,7 @@ body {
 =============================================================================================
 */
 .section-about {
-    background: linear-gradient(90deg, rgba($color-primary, .8) 0%,
+    background-image: linear-gradient(90deg, rgba($color-primary, .8) 0%,
         rgba($color-quarternary, .8) 100%), url(../img/bg-4.jpg);
 
     .section-content {

@@ -238,10 +238,10 @@ body {
 .section-home {
   display: flex;
   align-items: center;
-  background: linear-gradient(90deg, rgba(16, 41, 46, 0.8) 0%, rgba(204, 45, 111, 0.8) 100%), url(../img/bg.jpg); }
+  background-image: linear-gradient(90deg, rgba(16, 41, 46, 0.8) 0%, rgba(204, 45, 111, 0.8) 100%), url(../img/bg.jpg); }
 
 .section-skills {
-  background: linear-gradient(90deg, rgba(16, 41, 46, 0.8) 0%, rgba(204, 45, 111, 0.8) 100%), url(../img/bg-2.jpg); }
+  background-image: linear-gradient(90deg, rgba(16, 41, 46, 0.8) 0%, rgba(204, 45, 111, 0.8) 100%), url(../img/bg-2.jpg); }
   .section-skills .section-content {
     /* Specific code for skills content*/ }
 
@@ -297,7 +297,7 @@ body {
 =============================================================================================
 */
 .section-about {
-  background: linear-gradient(90deg, rgba(16, 41, 46, 0.8) 0%, rgba(204, 45, 111, 0.8) 100%), url(../img/bg-4.jpg); }
+  background-image: linear-gradient(90deg, rgba(16, 41, 46, 0.8) 0%, rgba(204, 45, 111, 0.8) 100%), url(../img/bg-4.jpg); }
   .section-about .section-content {
     color: #fff;
     width: 50%;

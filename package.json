@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Front-end Dev portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Portfolio"
+  },
+  "keywords": [
+    "portfolio",
+    "front-end",
+    "dev",
+    "web",
+    "js",
+    "css",
+    "html"
+  ],
+  "author": "Elton",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
